@@ -120,9 +120,11 @@ instance.interceptors.response.use(
       let blacklisted = 'The token has been blacklisted'
       let notBeParesed = 'Token could not be parsed from the request.'
       let notRefreshed = 'Token has expired and can no longer be refreshed'
+      let notVerified = 'Token Signature could not be verified.'
       if (
         message === blacklisted ||
         message === notBeParesed ||
+        message === notVerified ||
         message === notRefreshed
       ) {
         tip('身份信息已过期, 请重新登录!')

@@ -68,6 +68,7 @@
                    :key="successControl"
                    :text="successText"
                    :days="days"
+                   :toDay="staticYMD"
                    @close="closeSuccess"></check-success>
     <!-- 抽奖信息弹框 -->
     <info-dialog :show="toastControl"

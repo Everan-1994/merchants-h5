@@ -1,29 +1,12 @@
-# merchants-h5
+## 以下操作在本地
 
-## Project setup
-```
-npm install
-```
+#### 第一步 在 clone 下来的根目录 执行以下命令 install 安装依赖
+```npm install``` 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+#### 第二步
+在项目目录 ```src/common/js``` 下有个 ```http.jse``` 文件，修改大概68行的 ```baseURL``` 接口地址为你的服务器接口地址。
+ 
+#### 第三步 根目录执行以下命令 进行项目编译 
+```npm run build```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+build 之后，根目录会有有一个 ```dist``` 目录，把此目录文件上传到你的服务器

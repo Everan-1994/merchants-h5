@@ -1,0 +1,65 @@
+import Vue from 'vue'
+import {
+  Button,
+  Field,
+  Uploader,
+  Dialog,
+  Loading,
+  Toast,
+  Swipe,
+  SwipeItem,
+  Tag,
+  Tab,
+  Tabs,
+  AddressEdit,
+  Area,
+  Row,
+  Col,
+  Popup,
+  Checkbox,
+  CheckboxGroup,
+  DatetimePicker,
+  NumberKeyboard,
+  Picker,
+  RadioGroup,
+  Radio,
+  Icon,
+  Actionsheet,
+  Tabbar,
+  TabbarItem,
+  List,
+  Cell,
+  PullRefresh
+} from 'vant'
+import 'vant/lib/index.css'
+
+Vue.use(Button)
+Vue.use(Field)
+Vue.use(Uploader)
+Vue.use(Dialog)
+Vue.use(Loading)
+Vue.use(Toast)
+Vue.use(Swipe)
+Vue.use(SwipeItem)
+Vue.use(Tag)
+Vue.use(Tab)
+Vue.use(Tabs)
+Vue.use(AddressEdit)
+Vue.use(Area)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Popup)
+Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
+Vue.use(DatetimePicker)
+Vue.use(NumberKeyboard)
+Vue.use(Picker)
+Vue.use(RadioGroup)
+Vue.use(Radio)
+Vue.use(Icon)
+Vue.use(Actionsheet)
+Vue.use(Tabbar)
+Vue.use(TabbarItem)
+Vue.use(List)
+Vue.use(Cell)
+Vue.use(PullRefresh)
